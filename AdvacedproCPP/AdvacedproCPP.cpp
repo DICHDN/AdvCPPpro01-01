@@ -16,7 +16,7 @@ void print_point(const point& point_object) {
 }
 
 
-int main() // "Main" вместо " mane "
+int main() // "Main" вместо " main "
 {
 	int i;
 	for (i = 0; i < 5; i++) { // Было for (i = 0; i < 5; i++); { точка с запятой закрывала функцию цыкла
@@ -30,5 +30,5 @@ void print_point(const point& point_object) {
 	std::cout << "x:" << point_object.m_x << ", y: "
 		<< point_object.m_y << std::endl;
 }
-Данный кусок кода лишний, кроме того что он вне и после функции " mane ", он также реализован уже до нее 
+Данный кусок кода лишний, кроме того что он вне и после функции " main ", он также реализован уже до нее 
 */
